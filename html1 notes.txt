@@ -1,0 +1,88 @@
+*webpage-a document written in html viewd in a browser
+*website-collection of multiple pages linked togetheridentified by same domain
+structure
+*tags-
+paired and empty
+paired-come with opening as well as closed tag
+e.g. <b> text </b>
+<>-- opening tag 
+</>-- closing tag
+
+Empty-doesnot required to be closed
+only opening tag is required
+
+*html is case insensitive
+*all html document starts with <!DOCTYPE html>
+it will tell that it is an html document
+*<html>
+<head>
+
+<title> my page </title>
+
+</head>
+<body>
+<p> hello world </p>
+</body>
+
+ </html>
+
+inside html we have 2 things head followed by body
+head contains title,meta tag(helps search engine to identify the tag,it
+dont come in dispaly),style,keywords etc)
+
+*in html you can only have 1head and 1 body and both should be in paired tags 
+*<p> determines paragraphs
+* .html is extension to save html files
+formatting tags
+*<br> (empty tag)used to introduce new line
+*<hr> to add horizontal line(leave a line)
+*<b> bold(paired tag)
+*<u> underline
+*<i> itallic 
+*<m> emphasisng 
+*<storng> xyz  </strong> its paired tag to higlight a word same like bold
+*<h> heading tag starting from h1 to h6 
+*<mark>
+<small>
+<sub>
+<sup>
+<ind>
+<del>
+<!-- can add a comment here --> (comment tag) will not be displayed
+<a> a tag is used to create hyper link ek page se dusre page p jane k lie 
+href=" " to add the adress of the page,route
+<a href=" "> like this we have to use 
+*img tag is used to add image in which 3 tags are their 
+src alt width height
+alt -for alternate text that if that image is not able to load 
+so diplay text
+height/widt-jo size me chahiye ho tumhe image agr add nai krte to wo original width or height me hoga
+e.g.<img src="c:\users\shilpaj\pictures\screenshot\image1.png" alt="sorry"
+width=100 height=100 </img>
+if you want to add link in a image then <a href=" "
+
+
+
+
+paired tags
+*<ol> ordered list - with a number/bullet/roman number/alphabets
+<li>  </li> to add list
+by default it takes 123
+<ol type=A> you can change by using type=A/i/1 etc.
+and if you have to start with 3rd no.then 
+<ol type=A start=3> it will start from c d e (same for any type)
+resverse for ulte se start krna
+*<ul> unodered list- dot ,bulleted list
+
+their is no type and start in it, if we have to chnage bullet with star then
+<ul style ="list-style-type:square">
+
+
+
+* <dl> (desvription list) 
+  <dt> html</dt> side heading 
+  <dd> html is a markup language </dl> description
+
+example: 
+HTML 
+html is a markup language 
