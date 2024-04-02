@@ -85,4 +85,7 @@ their is no type and start in it, if we have to chnage bullet with star then
 
 example: 
 HTML 
-html is a markup language 
+html is a markup language
+
+close 
+ 
