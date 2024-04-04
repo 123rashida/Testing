@@ -1,0 +1,67 @@
+cd
+rjawadwa@LIN-5CG134BZQW MINGW64 ~
+$ cd github1
+
+rjawadwa@LIN-5CG134BZQW MINGW64 ~/github1
+$ cd testing
+
+rjawadwa@LIN-5CG134BZQW MINGW64 ~/github1/testing (main)
+$ status
+bash: status: command not found
+
+rjawadwa@LIN-5CG134BZQW MINGW64 ~/github1/testing (main)
+$ cd Testing1
+bash: cd: Testing1: No such file or directory
+
+rjawadwa@LIN-5CG134BZQW MINGW64 ~/github1/testing (main)
+$ cd Testing
+bash: cd: Testing: No such file or directory
+
+rjawadwa@LIN-5CG134BZQW MINGW64 ~/github1/testing (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+rjawadwa@LIN-5CG134BZQW MINGW64 ~/github1/testing (main)
+$ cd
+
+rjawadwa@LIN-5CG134BZQW MINGW64 ~
+$ cd github1
+
+rjawadwa@LIN-5CG134BZQW MINGW64 ~/github1
+$ cd Testing
+
+rjawadwa@LIN-5CG134BZQW MINGW64 ~/github1/Testing (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+rjawadwa@LIN-5CG134BZQW MINGW64 ~/github1/Testing (main)
+$ git push origin main
+raEnumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 438 bytes | 219.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/123rashida/Testing.git
+   ed1a2e0..27ef434  main -> main
+
+rjawadwa@LIN-5CG134BZQW MINGW64 ~/github1/Testing (main)
+$ mkdir github2
+
+rjawadwa@LIN-5CG134BZQW MINGW64 ~/github1/Testing (main)
+$ cd github2
+
+rjawadwa@LIN-5CG134BZQW MINGW64 ~/github1/Testing/github2 (main)
+$ mkdir localrepo
+
+rjawadwa@LIN-5CG134BZQW MINGW64 ~/github1/Testing/github2 (main)
+$
